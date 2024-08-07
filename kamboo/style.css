@@ -1,0 +1,548 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+a {
+    text-decoration: none;
+}
+
+.navigation {
+
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #f2632e;
+
+}
+
+.image img {
+    padding-top: 10%;
+    height: 100%;
+    margin-left: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.number {
+    margin-left: 20%;
+    padding-top: 10%;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.email {
+    margin-left: 20%;
+    padding-top: 2%;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn {
+    padding-top: 10%;
+    margin-left: 98px;
+}
+
+.btn button {
+    color: #f2632e;
+    padding: 3% 7% 3% 7%;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+nav {
+    text-align: center;
+    width: 100%;
+    padding: 1.5% 0% 1.5% 0%;
+    background-color: #000;
+    color: #fff;
+}
+
+nav ul li {
+    text-transform: uppercase;
+    display: inline;
+    margin-right: 5%;
+    cursor: pointer;
+}
+
+nav ul li span {
+    color: #f2632e;
+}
+
+nav ul li:hover {
+    color: #f2632e;
+}
+
+.container-1 {
+    background-image: url("https://www.kaboomconcretepumping.com.au/wp-content/uploads/2018/09/kaboomconcretepumping-slider-02-orange_tab.jpg");
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20% 12% 0% 0%;
+}
+
+.container-1 p {
+    text-align: end;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 400%;
+    color: #f2632e;
+    font-weight: 700;
+}
+
+.container-1 .color {
+    margin-right: -93px;
+    color: #fff;
+    font-size: 44px;
+}
+
+.container-2 h1 {
+    text-align: center;
+    justify-content: center;
+    padding: 60px;
+    font-size: 42px;
+    font-weight: normal;
+
+}
+
+.container-2 .image-2 {
+    text-align: center;
+    margin-right: -6px;
+    margin-top: -22px;
+}
+
+.container-2 p {
+    text-align: center;
+    justify-content: center;
+    font-size: 19px;
+    margin-left: 20px;
+    color: #7A7A7A;
+    padding: 40px;
+
+}
+
+.container-3 h1 {
+    text-align: center;
+    justify-content: center;
+    padding: 60px;
+    font-size: 42px;
+    font-weight: normal;
+    color: #f2632e;
+}
+
+.container-3 .image-3 {
+    text-align: center;
+    margin-right: -6px;
+    margin-top: -22px;
+
+}
+
+.container-3 p {
+    text-align: center;
+    justify-content: center;
+    font-size: 19px;
+    margin-left: 20px;
+    color: #7A7A7A;
+    padding: 40px;
+}
+
+.card-body {
+    background-color: whitesmoke;
+    margin-top: -5%;
+    z-index: 2;
+}
+
+.card-body h2 {
+    padding-top: 7%;
+    font-size: 20px;
+    text-align: center;
+    color: #f2632e;
+}
+
+.card-body p {
+    text-align: center;
+    line-height: 27px;
+}
+
+.cards {
+    padding: 0% 15% 0% 15%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 3%;
+    width: 100%;
+    height: auto;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-img {
+    z-index: 1;
+}
+.container-4{
+    background-image: url("https://www.kaboomconcretepumping.com.au/wp-content/uploads/2019/10/Resized_received_347307726218759.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* width: 100%; */
+    padding-bottom: 7%;
+    margin-top: 10%;
+}
+.container-4 h1 {
+    text-align: center;
+    justify-content: center;
+    padding: 60px;
+    font-size: 42px;
+    font-weight: normal;
+    color: #fff;
+}
+
+.container-4 .image-4 {
+    text-align: center;
+    margin-right: -6px;
+    margin-top: -22px;
+
+}
+
+.container-4 p {
+    text-align: center;
+    justify-content: center;
+    font-size: 19px;
+    margin-left: 20px;
+    color: #fff;
+    padding: 40px;
+    line-height: 33px;
+}
+.container-4 .pictures{
+    padding: 0% 12% 0% 12%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 3%;
+    width: 100%;
+    height: auto;
+   row-gap: 5%;
+   cursor: pointer;
+
+}
+.pictures img{
+   width: 100%;
+}
+
+.container-5 h1 {
+    text-align: center;
+    justify-content: center;
+    padding: 60px;
+    font-size: 42px;
+    font-weight: normal;
+    color: #f2632e;
+}
+
+.container-5 .image-5 {
+    text-align: center;
+    margin-right: -6px;
+    margin-top: -22px;
+
+}
+
+.container-5 p {
+    text-align: center;
+    justify-content: center;
+    font-size: 19px;
+    margin-left: 20px;
+    color: #7A7A7A;
+    padding: 40px;
+}
+
+.container-5 .pictures-1{
+    padding: 0% 6% 0% 6%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+   cursor: pointer;
+}
+.pictures-1 img{
+    width: 50%;
+  
+
+ }
+ .image-sec{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 8%;
+    padding: 1% 18% 7% 15%;
+    
+ }
+ .image-sec img{
+    width: 100%;
+    margin-top: 5%;
+    border-radius: 20px;
+ }
+
+.s-para span{
+    font-size: 22px;
+    color: #f2632e;
+
+}
+.left p{
+    font-size: 18px;
+    line-height: 29px;
+}
+.container-6 h1 {
+    text-align: center;
+    justify-content: center;
+    padding: 60px;
+    font-size: 42px;
+    font-weight: normal;
+    color: #f2632e;
+}
+.container-6 .image-6 {
+    text-align: center;
+    margin-right: -6px;
+    margin-top: -22px;
+
+}
+.container-6 p {
+    text-align: center;
+    justify-content: center;
+    font-size: 19px;
+    margin-left: 259px;
+    color: #7A7A7A;
+    line-height: 32px;
+    text-align: justify;
+   
+}
+
+.para img{
+    height: 385px;
+    margin-top: -33rem;
+    width: 34rem;
+    margin-left: 54px;
+}
+    
+.para{
+    display: flex;
+    justify-content: space-between;
+    color: #7A7A7A;
+   align-items: center;
+   justify-content: center;
+   line-height: 32px;
+   font-size: 19px;
+   padding: 65px;
+   
+}
+
+footer{
+    background: #343434;
+    padding-top: 70px;
+}
+
+.container-7{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+.footer{
+    width: 33.3%;
+}
+h3{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.footer-content{
+margin-left: 85px;
+
+}
+
+.footer-content p{
+    width: 400px;
+    margin: auto;
+    line-height: 26px;
+}
+
+.footer-content ul{
+    text-align: center;
+    line-height: 25px;
+}
+.list{
+    padding: 0;
+    margin-top: -5px;
+    
+}
+.list li{
+    width: auto;
+    text-align: center;
+    list-style-type: none;
+    padding: 7px;
+    position: relative;
+}
+.footer-content ul li a{
+    color: #fff;
+    line-height: 6px;
+}
+
+.footer-content .font{
+    line-height: 26px;
+}
+
+.bottom-bar{
+    text-align: center;
+    margin-top: 34px;
+    padding: 30px;
+}
+.bottom-bar p{
+    color: #fff;
+}
+@media only screen and (max-width:768px) {
+    nav ul {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .container-6 p {
+        margin-left: 26px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .email p {
+        margin-left: -16px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .image {
+        margin-left: 65px;
+        height: 112px;
+        width: 0px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .btn button {
+        width: 122px;
+        margin-top: 18px;
+    }
+}
+
+
+
+/* =========1028px============ */
+@media only screen and (max-width:1024px) {
+    .navigation {
+        width: 72rem;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .email .number {
+        margin-left: -6px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .email .email {
+        margin-left: -6px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .image {
+        margin-top: -41px;
+        margin-right: -24px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .btn button {
+        height: 62px;
+        width: 170px;
+        margin-top: 18px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    nav{
+        width: 72rem;
+    }
+    }
+    
+@media only screen and (max-width:1024px) {
+    .container-1 {
+        width: 72rem;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .container-2 {
+        width: 72rem;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .container-3 {
+        width: 72rem;
+    }
+}
+@media only screen and (max-width:1024px) {
+    .cards{
+        width: 72rem;
+    }
+}
+@media only screen and (max-width:1024px) {
+    .container-4 {
+        width: 72rem;
+    }
+}
+@media only screen and (max-width:1024px) {
+    .container-5 {
+        width: 72rem;
+    }
+}
+@media only screen and (max-width:1024px) {
+    .image-sec {
+        width: 72rem;
+    }
+}
+@media only screen and (max-width:1024px) {
+    .container-6 {
+        width: 72rem;
+    }
+}
+@media only screen and (max-width:1024px) {
+    .container-6 p {
+        line-height: 51px;
+        font-size: 17px;
+        margin-left: 58px;
+    }
+}
+@media only screen and (max-width:1024px) {
+    footer {
+        width: 72rem;
+    }
+}
+@media only screen and (max-width:1024px) {
+    .para {
+        width: 72rem;
+    }
+}
+@media only screen and (max-width:1024px) {
+    .container-7{
+        width:72rem;
+        }
+}
